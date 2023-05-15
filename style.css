@@ -1,0 +1,90 @@
+ /* Add custom styles here */
+ body {
+    background-color: #0b0a0a;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    
+  }
+  div{
+    text-align: center;
+    background-color: #121111;
+    margin: auto;
+    padding: auto;
+  }
+  fieldset{
+    border: 5px solid white;
+    margin: auto;
+    padding: auto;
+  }
+  h1 {
+    text-align: center;
+    color: #ccc;
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-shadow: 2px 2px #333;
+  }
+  h3 {
+    text-align: center;
+    color: #ccc;
+    margin-top: 2rem;
+    text-shadow: 2px 2px #333;}
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 2rem;
+    color: aliceblue;
+  }
+  video {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px #999;
+    height: 40%;
+    width: 50%;
+  }
+  button {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  button:hover {
+    background-color: #3f3f3f;
+  }
+  /* Add animations to the title */
+  .animated {
+    animation-duration: 6s;
+    animation-fill-mode: both;
+  }
+  .bounceIn {
+    animation-name: bounceIn;
+  }
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    70% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  img{
+    width: 25%;
+    height: 25%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
